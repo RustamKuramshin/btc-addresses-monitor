@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: db
+    ports:
+      - "25432:5432"
+    restart: always
+    environment:
+      - POSTGRES_DB=btcam
+      - POSTGRES_USER=btcam
+      - POSTGRES_PASSWORD=btcam
+    volumes:
+      - data_pg:/var/lib/postgresql/data
+
+volumes:
+  data_pg:
+    driver: local

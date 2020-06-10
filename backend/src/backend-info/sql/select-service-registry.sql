@@ -1,0 +1,1 @@
+SELECT DISTINCT count(id) FROM service_registry;

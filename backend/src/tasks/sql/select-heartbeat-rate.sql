@@ -1,0 +1,1 @@
+SELECT s.value::INTEGER FROM settings s WHERE s.property = 'heartbeat_rate_every_seconds';

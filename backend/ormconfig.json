@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 25432,
+  "username": "btcam",
+  "password": "btcam",
+  "database": "btcam",
+  "entities": [],
+  "synchronize": false,
+  "migrationsRun": true,
+  "migrations": ["dist/migration/**/*.js"],
+  "cli": {
+    "migrationsDir": "migration"
+  }
+}

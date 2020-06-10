@@ -1,0 +1,41 @@
+POST localhost:3000/btc-addresses
+Content-Type: application/json
+
+{
+  "address": "3GV12qZA5XLpDZG9zDCQ8fX7cog9bYR1aw"
+}
+
+###
+
+GET localhost:3000/btc-addresses
+
+<> 2020-05-13T061547.200.json
+<> 2020-05-13T061528.200.json
+<> 2020-05-13T061446.200.json
+<> 2020-05-13T060655.200.json
+<> 2020-05-13T060537.200.json
+
+###
+
+GET localhost:3000/btc-addresses?offset=1&limit=1
+
+###
+
+GET localhost:3000/btc-addresses/3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+
+<> 2020-05-13T060700.200.json
+<> 2020-05-13T060650.200.json
+
+###
+
+DELETE localhost:3000/btc-addresses/1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+
+###
+
+GET localhost:3000/backend-info
+
+###
+
+GET localhost:3000/blockchain-info
+
+###
