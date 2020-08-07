@@ -32,7 +32,7 @@
     "@nestjs/schedule": "^0.4.0",
     "@nestjs/typeorm": "^7.0.0",
     "@types/fs-extra": "^8.1.0",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.12.2",
     "fs-extra": "^9.0.0",
     "moment": "^2.25.3",
