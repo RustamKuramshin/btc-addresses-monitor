@@ -33,7 +33,7 @@
     "@nestjs/typeorm": "^7.0.0",
     "@types/fs-extra": "^8.1.0",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.12.2",
+    "class-validator": "^0.14.0",
     "fs-extra": "^9.0.0",
     "moment": "^2.25.3",
     "pg": "^8.2.0",
